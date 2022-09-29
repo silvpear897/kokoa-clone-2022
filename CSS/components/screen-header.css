@@ -18,3 +18,17 @@
     position: relative;
 
 }
+
+@keyframes rotatCog {
+    form{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+    
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: rotatCog 1s linear infinite;
+}
